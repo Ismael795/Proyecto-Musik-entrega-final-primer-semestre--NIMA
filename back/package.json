@@ -1,0 +1,26 @@
+{
+  "name": "musik-backend",
+  "version": "1.0.0",
+  "description": "API Express para la revista digital MUSIK",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "musik",
+    "revista",
+    "musica",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.22.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
